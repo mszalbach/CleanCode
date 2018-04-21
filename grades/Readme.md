@@ -2,10 +2,10 @@
  professionalism = principles + practices
 
 # Grades
-* Black
-* Red
-* Orange
-* Yellow
-* Green
-* Blue
-* White
+* [Black](Black.md)
+* [Red](Red.md)
+* [Orange](Orange.md)
+* [Yellow](Yellow.md)
+* [Green](Green.md)
+* [Blue](Blue.md)
+* [White](White.md)
