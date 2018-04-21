@@ -242,4 +242,4 @@ Simple patterns to learn are:
 * [extract method](https://refactoring.com/catalog/extractMethod.html)
 
 ## Reflect Daily
-You get better when you reflect your achievements and errors. But only when you practice it daily it will be used under heavy pressure.
+You get better when you reflect your achievements and errors. But only when you practice it daily it can be used under heavy pressure.
