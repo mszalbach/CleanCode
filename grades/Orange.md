@@ -151,6 +151,7 @@ Integration testing ensures that the code does what it should. To not automate t
 * The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition 
 * The Pragmatic Programmer: From Journeyman to Master 
 * Mastering Regular Expressions, Second Edition
+* [Hacker News](https://news.ycombinator.com/)
 * Reddit
 * Stackoverflow
 
