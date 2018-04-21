@@ -9,7 +9,8 @@ and so you can start with them without anybody noticing you doing it.
 ## Don´t Repeat Yourself (DRY)
 
 ### Example 1
-Spot the duplicate:
+<details><summary>Spot the duplicate</summary>
+<p>
 
 ```java
 public class Customer {
@@ -27,7 +28,12 @@ public class Customer {
     }
 }
 ```
-Better:
+
+</p>
+</details>
+<details><summary>Better</summary>
+<p>
+    
 ```java
 public class Customer {
     private Address address;
@@ -44,7 +50,15 @@ public class Customer {
 }
 ```
 
-### Example 3
+</p>
+</details>
+
+
+### Example 2
+
+<details><summary>lot of exception handling code</summary>
+<p>
+
 ```java
 public class FileProcessor {
     public void processXMLFile(File file) {
@@ -80,6 +94,11 @@ public class FileProcessor {
     }
 }
 ```
+</p>
+</details>
+
+<details><summary>Better</summary>
+<p>
 
 ```java
 public interface FileProcessorStrategy {
@@ -121,6 +140,9 @@ public class FileProcessor {
 }
 ```
 
+</p>
+</details>
+
 ## Keep it simple, stupid (KISS)
 1+1 = [(27/3)/3]-1
 
@@ -138,6 +160,9 @@ System.out.println( 2 << 1 );
 ```
 
 ## Favour Composition over Inheritance (FCoI)
+
+<details><summary>Will not work</summary>
+<p>
 
 ```java
 //what happens if HashSet gets a new Method? 
@@ -161,6 +186,12 @@ public class InstrumentedHashSet extends HashSet {
     }
 }
 ```
+
+</p>
+</details>
+
+<details><summary>Using composition</summary>
+<p>
 
 ```java
 //what happens if HasSet gets a Method? 
@@ -187,6 +218,9 @@ public class InstrumentedHashSet {
     }
 }
 ```
+
+</p>
+</details>
 
 # Practices
 
