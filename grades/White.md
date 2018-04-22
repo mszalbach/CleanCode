@@ -1,0 +1,1 @@
+The circle is complete and a developer should use all practices and principles from the other grades. Since this is difficult he should switch back to the red grade after some time. Skill comes with practice.
