@@ -6,6 +6,16 @@ The goal is to raise awareness to think about the code you write and to give som
  
  # Requirements 
  Good Java knowledge and some experience with programming at all.
+ 
+ # TOC
+ * [Grades](grades/Readme.md)
+   * [Black](grades/Black.md)
+   * [Red](grades/Red.md)
+   * [Orange](grades/Orange.md)
+   * [Yellow](grades/Yellow.md)
+   * [Green](grades/Green.md)
+   * [Blue](grades/Blue.md)
+   * [White](grades/White.md)
 
 # References
 * http://clean-code-developer.de/
