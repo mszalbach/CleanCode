@@ -7,6 +7,10 @@ The goal is to raise awareness to think about the code you write and to give som
  # Requirements 
  Good Java knowledge and some experience with programming at all.
  
+ # Excercise
+ There is a example project based on Martin Fowlers Refactoring book:
+ * https://github.com/mszalbach/MartinFowlerRefactoringExercise
+ 
  # TOC
  * [Grades](grades/Readme.md)
    * [Black](grades/Black.md)
