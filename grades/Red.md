@@ -222,6 +222,14 @@ public class InstrumentedHashSet {
 </p>
 </details>
 
+## Integration Operation Segregation Principle (IOSP)
+Methods are separated in two groups:
+* A Method only contains logic like control structures, I/O or API calls -> this is named Operation
+* A Method only contains of calls to other methods of the same codebase -> this is named Integration
+
+This helps to comply with Single Responsibility Principle. The code will be build like a tree. Operations can only be found at
+the leafs, which will do any calculation. 
+
 # Practices
 
 ## Boy Scouts Rule
