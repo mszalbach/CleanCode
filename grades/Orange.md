@@ -28,7 +28,7 @@ A class or module should have one, and only one, reason to change.
 ```java
 //what happens if we add new content types like html.
 //what happens when we want to support other protocols interface
-IEmail {
+interface IEmail {
     public void setSender(String sender);
     public void setReceiver(String receiver);
     public void setContent(String content);
