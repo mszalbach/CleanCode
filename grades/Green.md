@@ -106,7 +106,7 @@ This law did not apply to data structures, because they naturally expose their i
 2. M's parameters 
 3. Any objects created/instantiated within M 
 4. O's direct component objects 
-5- A global variable, accessible by O, in the scope of M
+5. A global variable, accessible by O, in the scope of M
 
 > The Law of Demeter is not a law, and it's not as simple as counting the number of dots in your statements.
 > It's really about developing a sense for constructing your code so that each object is confident in what it is telling other objects to do, 
